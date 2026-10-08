@@ -1,3 +1,5 @@
-import app from "./components/Portfolio";
+import Portfolio from "./components/Portfolio";
 
-export default app;
+export default function Home() {
+  return <Portfolio />;
+}
