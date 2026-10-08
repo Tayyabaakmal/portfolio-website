@@ -1,5 +1,3 @@
-import Portfolio from "./components/Portfolio";
+import app from "./components/Portfolio";
 
-export default function Home() {
-  return <Portfolio />;
-}
+export default app;
