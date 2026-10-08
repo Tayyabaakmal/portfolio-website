@@ -1,28 +1,21 @@
-{
-  "name": "portfolio-website",
-  "version": "2.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Tayyaba Akmal | Web Developer & AI Specialist",
+  description: "Premium portfolio of Tayyaba Akmal — Web Developer, AI Specialist, E-commerce Developer, and AI Automation Expert.",
+  metadataBase: new URL("https://example.com"),
+  openGraph: {
+    title: "Tayyaba Akmal | Web Developer & AI Specialist",
+    description: "Portfolio website for Tayyaba Akmal",
+    type: "website",
   },
-  "dependencies": {
-    "next": "14.2.15",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "framer-motion": "^11.11.11"
-  },
-  "devDependencies": {
-    "@types/node": "20.14.12",
-    "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0",
-    "autoprefixer": "10.4.20",
-    "eslint": "8.57.0",
-    "eslint-config-next": "14.2.15",
-    "postcss": "8.4.41",
-    "tailwindcss": "3.4.10",
-    "typescript": "5.5.4"
-  }
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body>{children}</body>
+    </html>
+  );
 }
