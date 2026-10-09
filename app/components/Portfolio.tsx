@@ -81,7 +81,7 @@ const process = [
 
 const socials = [
   { label: "GitHub", href: "https://github.com/Tayyabaakmal" },
-  { label: "LinkedIn", href: "https://www.linkedin.com" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/tayyaba-akmal" },
   { label: "Email", href: "mailto:tayyabaakmal1234@gmail.com" },
   { label: "Resume", href: "#" },
 ];
