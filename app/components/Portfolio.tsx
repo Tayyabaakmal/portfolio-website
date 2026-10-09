@@ -83,7 +83,7 @@ const socials = [
   { label: "GitHub", href: "https://github.com/Tayyabaakmal" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/tayyaba-akmal" },
   { label: "Email", href: "mailto:tayyabaakmal1234@gmail.com" },
-  { label: "Resume", href: "#" },
+  { label: "Resume", href: "/Tayyaba-Akmal.pdf" },
 ];
 
 const fadeUp = {
