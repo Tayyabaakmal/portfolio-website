@@ -13,8 +13,8 @@ const navLinks = [
 ];
 
 const stats = [
-  { value: "8+", label: "Years experience" },
-  { value: "40+", label: "Projects launched" },
+  { value: "7+", label: "Years experience" },
+  { value: "320+", label: "Projects launched" },
   { value: "100%", label: "Custom-focused" },
 ];
 
